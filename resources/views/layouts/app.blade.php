@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('mdb/css/font-awesome.min.css')}}">
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('mdb/css/bootstrap.min.css')}}" rel="stylesheet">
